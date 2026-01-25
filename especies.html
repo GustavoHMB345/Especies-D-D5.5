@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espécies: Filhos do Fogo & Elfos do Sol (D&D 2024)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@400;600&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #080808;
+            color: #e5e7eb;
+            background-image: radial-gradient(circle at top right, #1a1005 0%, #080808 40%);
+        }
+        .cinzel { font-family: 'Cinzel', serif; }
+        
+        .card {
+            background: linear-gradient(145deg, #121212, #1a1a1a);
+            border: 1px solid #2a2a2a;
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            border-color: #4b5563;
+            transform: translateY(-2px);
+        }
+        .ember-border { border-top: 4px solid #f97316; }
+        .ash-border { border-top: 4px solid #6b7280; }
+        .pure-border { border-top: 4px solid #ef4444; }
+        .sun-border { border-top: 4px solid #fbbf24; }
+
+        .badge {
+            font-size: 0.65rem;
+            padding: 2px 8px;
+            border-radius: 9999px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+        .mod-box {
+            background: rgba(0,0,0,0.3);
+            border-left: 2px solid;
+            padding: 0.5rem;
+            font-size: 0.75rem;
+        }
+    </style>
+</head>
+<body class="p-6 md:p-12">
+
+    <div class="max-w-5xl mx-auto space-y-12">
+        <header class="text-center space-y-4">
+            <h1 class="cinzel text-5xl md:text-6xl text-amber-500 tracking-widest uppercase drop-shadow-[0_0_15px_rgba(245,158,11,0.3)]">Linhagens de Avalon</h1>
+            <p class="text-gray-400 max-w-2xl mx-auto italic">
+                "O equilíbrio de Alradracax não era apenas força ou magia; era a harmonia entre o que arde e o que resiste."
+            </p>
+            <div class="flex justify-center gap-4 mt-6">
+                <span class="px-3 py-1 bg-amber-950/30 border border-amber-800 text-amber-500 text-xs font-bold rounded-full uppercase">SISTEMA D&D 2024 (5.5e)</span>
+            </div>
+        </header>
+
+        <!-- Elfos do Sol -->
+        <section class="card sun-border p-8 rounded-2xl shadow-2xl space-y-6 relative overflow-hidden">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                <h2 class="cinzel text-3xl text-amber-400">Elfos do Sol (Elesmerianos)</h2>
+                <div class="mod-box border-amber-500 text-amber-400">
+                    Bónus: +2 Inteligência, +1 Sabedoria
+                </div>
+            </div>
+            <p class="text-gray-400 leading-relaxed">
+                A linhagem mística mais pura de Elesmera. São seres de alta ressonância mágica, especialistas em manipular as leis da realidade através da Sinfonia das Três Vontades.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4">
+                <div class="space-y-4">
+                    <h3 class="text-sm font-bold text-amber-200 uppercase tracking-widest border-b border-amber-900/50 pb-2">Traços Fisiológicos</h3>
+                    <ul class="space-y-3 text-sm text-gray-300">
+                        <li><b>Ancestralidade Feérica:</b> Vantagem em salvaguardas contra Enfeitiçado; Imunidade a sono mágico.</li>
+                        <li><b>Resiliência Radiante:</b> Resistência a dano Radiante.</li>
+                        <li><b>Sintonia Superior:</b> Conhece o truque <b>Luz</b> e tem proficiência em <b>Misticismo</b>.</li>
+                    </ul>
+                </div>
+                <div class="space-y-4">
+                    <h3 class="text-sm font-bold text-amber-200 uppercase tracking-widest border-b border-amber-900/50 pb-2">Magia Primordial</h3>
+                    <ul class="space-y-3 text-sm text-gray-300">
+                        <li><b>Lvl 3:</b> Escudo da Fé (Mithril Protect).</li>
+                        <li><b>Lvl 5:</b> Arma Espiritual (Lâmina de Luz Solar).</li>
+                        <li><b>Sentido de Mithril:</b> Detecta o metal ou itens mágicos a 30m.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filhos do Fogo -->
+        <section class="space-y-6">
+            <div class="text-center">
+                <h2 class="cinzel text-4xl text-orange-500">Filhos do Fogo</h2>
+                <p class="text-gray-500 text-sm mt-2 uppercase tracking-widest">Descendentes Híbridos de Alradracax</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                
+                <!-- Linhagem das Brasas -->
+                <div class="card ember-border p-6 rounded-2xl shadow-xl flex flex-col">
+                    <h3 class="cinzel text-xl text-orange-500 mb-2">Linhagem das Brasas</h3>
+                    <div class="mod-box border-orange-500 text-orange-400 mb-4">
+                        Bónus: +2 Carisma, +1 Inteligência
+                    </div>
+                    <p class="text-xs text-gray-400 mb-6 flex-grow italic">O foco total na canalização mágica e manipulação de mana.</p>
+                    <div class="space-y-3 text-xs">
+                        <div class="p-3 bg-orange-900/10 rounded-lg border border-orange-800/20">
+                            <b class="text-orange-400 block mb-1">Mente Incandescente</b>
+                            Vantagem em testes de Misticismo para decifrar a Cifra de Vigenère.
+                        </div>
+                        <div class="p-3 bg-orange-900/10 rounded-lg border border-orange-800/20">
+                            <b class="text-orange-400 block mb-1">Magia das Chamas:</b>
+                            Lvl 1: Chicote de Espinhos (Fogo).<br>
+                            Lvl 3: Mãos Flamejantes.<br>
+                            Lvl 5: Passo Nebuloso.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Linhagem Pura -->
+                <div class="card pure-border p-6 rounded-2xl shadow-xl flex flex-col border-2 border-red-900/30">
+                    <h3 class="cinzel text-xl text-red-500 mb-2">Linhagem Pura</h3>
+                    <div class="mod-box border-red-500 text-red-400 mb-4">
+                        Bónus: +1 For, +1 Con, +1 Car
+                    </div>
+                    <p class="text-xs text-gray-400 mb-6 flex-grow italic">O equilíbrio perfeito entre o guerreiro e o místico. Vantagens equilibradas.</p>
+                    <div class="space-y-3 text-xs">
+                        <div class="p-3 bg-red-900/10 rounded-lg border border-red-800/20">
+                            <b class="text-red-400 block mb-1">Versatilidade Heroica</b>
+                            Resistência a Fogo e proficiência com uma arma adicional.
+                        </div>
+                        <div class="p-3 bg-red-900/10 rounded-lg border border-red-800/20">
+                            <b class="text-red-400 block mb-1">Maestria Nato</b>
+                            Pode escolher 1 propriedade de <b>Maestria de Arma</b> adicional.
+                        </div>
+                        <div class="p-3 bg-red-900/10 rounded-lg border border-red-800/20">
+                            <b class="text-red-400 block mb-1">Magia de Equilíbrio:</b>
+                            Lvl 1: Luz.<br>
+                            Lvl 3: Mãos Flamejantes.<br>
+                            Lvl 5: Esquentar Metal.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Linhagem das Cinzas -->
+                <div class="card ash-border p-6 rounded-2xl shadow-xl flex flex-col">
+                    <h3 class="cinzel text-xl text-gray-400 mb-2">Linhagem das Cinzas</h3>
+                    <div class="mod-box border-gray-500 text-gray-400 mb-4">
+                        Bónus: +2 Força, +1 Constituição
+                    </div>
+                    <p class="text-xs text-gray-400 mb-6 flex-grow italic">Poder físico bruto. Desprovidos de magia, mas imparáveis no combate.</p>
+                    <div class="space-y-3 text-xs">
+                        <div class="p-3 bg-gray-800/10 rounded-lg border border-gray-700/20">
+                            <b class="text-gray-300 block mb-1">Corpo de Titã</b>
+                            Tamanho Grande para carga. Vantagem em Atletismo.
+                        </div>
+                        <div class="p-3 bg-gray-800/10 rounded-lg border border-gray-700/20">
+                            <b class="text-gray-300 block mb-1">Tenacidade Inquebrável</b>
+                            +1 HP por nível. Resistência a Fogo.
+                        </div>
+                        <div class="p-3 bg-gray-800/10 rounded-lg border border-gray-700/20">
+                            <b class="text-gray-300 block mb-1">Guerreiro Rúnico</b>
+                            Aprende 2 Maestrias de Arma extras. (Substitui Magias).
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="text-center pt-8 border-t border-gray-900">
+            <p class="text-xs text-gray-600 uppercase tracking-widest cinzel">Mundo de Mithril &bull; Avalon &bull; Elesmera</p>
+        </footer>
+    </div>
+
+</body>
+</html>
