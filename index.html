@@ -30,14 +30,6 @@
         .pure-border { border-top: 4px solid #ef4444; }
         .sun-border { border-top: 4px solid #fbbf24; }
 
-        .badge {
-            font-size: 0.65rem;
-            padding: 2px 8px;
-            border-radius: 9999px;
-            text-transform: uppercase;
-            font-weight: 700;
-            letter-spacing: 0.05em;
-        }
         .mod-box {
             background: rgba(0,0,0,0.3);
             border-left: 2px solid;
@@ -55,7 +47,7 @@
                 "O equilíbrio de Alradracax não era apenas força ou magia; era a harmonia entre o que arde e o que resiste."
             </p>
             <div class="flex justify-center gap-4 mt-6">
-                <span class="px-3 py-1 bg-amber-950/30 border border-amber-800 text-amber-500 text-xs font-bold rounded-full uppercase tracking-tighter">SISTEMA TORMENTA 20 (T20)</span>
+                <span class="px-3 py-1 bg-amber-950/30 border border-amber-800 text-amber-500 text-xs font-bold rounded-full uppercase tracking-tighter">SISTEMA TORMENTA 20</span>
             </div>
         </header>
 
@@ -64,7 +56,7 @@
             <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                 <h2 class="cinzel text-3xl text-amber-400">Elfos do Sol (Elesmerianos)</h2>
                 <div class="mod-box border-amber-500 text-amber-400 font-bold">
-                    Atributos: +2 Inteligência, +1 Sabedoria, -1 Força
+                    Atributos: +4 Inteligência, +2 Sabedoria, -2 Força
                 </div>
             </div>
             <p class="text-gray-400 leading-relaxed">
@@ -76,16 +68,16 @@
                     <h3 class="text-sm font-bold text-amber-200 uppercase tracking-widest border-b border-amber-900/50 pb-2">Habilidades de Raça</h3>
                     <ul class="space-y-3 text-sm text-gray-300">
                         <li><b class="text-amber-500">Herança Feérica:</b> Você recebe +2 em Vontade contra efeitos de Encantamento e é imune a efeitos mágicos de sono.</li>
-                        <li><b class="text-amber-500">Resiliência Radiante:</b> Você recebe Resistência a Luz 5.</li>
-                        <li><b class="text-amber-500">Sintonia Superior:</b> Você recebe proficiência na perícia <b>Misticismo</b> e conhece a magia <b>Luz</b> (pode lançar sem custo de PM).</li>
+                        <li><b class="text-amber-500">Resiliência Radiante:</b> Você recebe Resistência a Luz 10 (Elemental).</li>
+                        <li><b class="text-amber-500">Sintonia Superior:</b> Você recebe proficiência em <b>Misticismo</b> e conhece a magia <b>Luz</b> (pode lançar sem custo de PM).</li>
                     </ul>
                 </div>
                 <div class="space-y-4">
                     <h3 class="text-sm font-bold text-amber-200 uppercase tracking-widest border-b border-amber-900/50 pb-2">Magia Primordial</h3>
                     <ul class="space-y-3 text-sm text-gray-300">
-                        <li><b>1º Círculo:</b> Você pode lançar <i>Escudo da Fé</i> (Mithril Protect) por 1 PM.</li>
-                        <li><b>2º Círculo:</b> No nível 5, você pode lançar <i>Arma Espiritual</i> (Lâmina de Luz Solar) por 3 PM.</li>
-                        <li><b class="text-amber-500">Sentido de Mithril:</b> Você recebe +2 em testes de Percepção para localizar itens mágicos ou metais preciosos a 9m.</li>
+                        <li><b>1º Círculo:</b> Você conhece <i>Escudo da Fé</i>. Se for um conjurador, o custo é reduzido em -1 PM (mínimo 1).</li>
+                        <li><b>2º Círculo:</b> No nível 5, você aprende <i>Arma Espiritual</i> (Lâmina de Luz Solar).</li>
+                        <li><b class="text-amber-500">Sentido de Mithril:</b> Recebe +5 em Percepção para localizar itens mágicos ou metais a 9m.</li>
                     </ul>
                 </div>
             </div>
@@ -104,17 +96,17 @@
                 <div class="card ember-border p-6 rounded-2xl shadow-xl flex flex-col">
                     <h3 class="cinzel text-xl text-orange-500 mb-2">Linhagem das Brasas</h3>
                     <div class="mod-box border-orange-500 text-orange-400 mb-4 font-bold">
-                        Atributos: +2 Carisma, +1 Inteligência, -1 Força
+                        Atributos: +4 Carisma, +2 Inteligência, -2 Força
                     </div>
-                    <p class="text-xs text-gray-400 mb-6 flex-grow italic">O foco total na canalização mágica e manipulação de mana.</p>
+                    <p class="text-xs text-gray-400 mb-6 flex-grow italic">Foco total na canalização mágica e manipulação de mana.</p>
                     <div class="space-y-3 text-xs">
                         <div class="p-3 bg-orange-900/10 rounded-lg border border-orange-800/20">
                             <b class="text-orange-400 block mb-1">Mente Incandescente</b>
-                            Você recebe +2 em testes de Misticismo para decifrar a Cifra de Vigenère ou identificar magias.
+                            Você recebe +2 em Misticismo e Vontade. Pode gastar 1 PM para repetir um teste de Misticismo falho.
                         </div>
                         <div class="p-3 bg-orange-900/10 rounded-lg border border-orange-800/20">
                             <b class="text-orange-400 block mb-1">Magia das Chamas:</b>
-                            Você conhece as magias <i>Toque Chocante</i> (versão de Fogo) e <i>Explosão de Chamas</i>. No nível 5, aprende <i>Salto Dimensional</i>. Cada magia custa seu PM normal.
+                            Conhece <i>Explosão de Chamas</i> e <i>Toque Chocante</i> (Fogo). No nível 5, aprende <i>Salto Dimensional</i>.
                         </div>
                     </div>
                 </div>
@@ -123,21 +115,21 @@
                 <div class="card pure-border p-6 rounded-2xl shadow-xl flex flex-col border-2 border-red-900/30">
                     <h3 class="cinzel text-xl text-red-500 mb-2">Linhagem Pura</h3>
                     <div class="mod-box border-red-500 text-red-400 mb-4 font-bold">
-                        Atributos: +1 For, +1 Con, +1 Car
+                        Atributos: +2 Força, +2 Constituição, +2 Carisma
                     </div>
-                    <p class="text-xs text-gray-400 mb-6 flex-grow italic">O equilíbrio perfeito entre o guerreiro e o místico. Vantagens equilibradas.</p>
+                    <p class="text-xs text-gray-400 mb-6 flex-grow italic">O equilíbrio perfeito. Não possui redutores, representando a estabilidade.</p>
                     <div class="space-y-3 text-xs">
                         <div class="p-3 bg-red-900/10 rounded-lg border border-red-800/20">
                             <b class="text-red-400 block mb-1">Versatilidade Heroica</b>
-                            Resistência a Fogo 5 e proficiência com uma arma marcial à sua escolha.
+                            Resistência a Fogo 10 e proficiência com duas armas marciais à sua escolha.
                         </div>
                         <div class="p-3 bg-red-900/10 rounded-lg border border-red-800/20">
                             <b class="text-red-400 block mb-1">Mestre de Manobras</b>
-                            Você recebe +2 em testes de ataque para realizar qualquer Manobra de Combate (Derrubar, Empurrar, etc).
+                            Recebe +2 em testes de ataque para Manobras e ignora penalidades de tamanho para Empurrar e Derrubar.
                         </div>
                         <div class="p-3 bg-red-900/10 rounded-lg border border-red-800/20">
                             <b class="text-red-400 block mb-1">Magia de Equilíbrio:</b>
-                            Conhece as magias <i>Luz</i>, <i>Explosão de Chamas</i> e <i>Esquentar Metal</i>. Custo normal de PM.
+                            Conhece <i>Luz</i>, <i>Explosão de Chamas</i> e <i>Esquentar Metal</i>.
                         </div>
                     </div>
                 </div>
@@ -146,21 +138,21 @@
                 <div class="card ash-border p-6 rounded-2xl shadow-xl flex flex-col">
                     <h3 class="cinzel text-xl text-gray-400 mb-2">Linhagem das Cinzas</h3>
                     <div class="mod-box border-gray-500 text-gray-400 mb-4 font-bold">
-                        Atributos: +2 Força, +1 Constituição, -1 Inteligência
+                        Atributos: +4 Força, +2 Constituição, -2 Inteligência
                     </div>
-                    <p class="text-xs text-gray-400 mb-6 flex-grow italic">Poder físico bruto. Desprovidos de magia, mas imparáveis no combate.</p>
+                    <p class="text-xs text-gray-400 mb-6 flex-grow italic">Poder físico bruto. Desprovidos de magia, mas imparáveis.</p>
                     <div class="space-y-3 text-xs">
                         <div class="p-3 bg-gray-800/10 rounded-lg border border-gray-700/20">
                             <b class="text-gray-300 block mb-1">Corpo de Titã</b>
-                            Você é considerado uma categoria de tamanho maior para fins de Manobras de Combate e carga. +2 em Atletismo.
+                            Conta como um tamanho maior para Manobras e Carga. Seus ataques corpo a corpo causam +2 de dano.
                         </div>
                         <div class="p-3 bg-gray-800/10 rounded-lg border border-gray-700/20">
                             <b class="text-gray-300 block mb-1">Tenacidade Inquebrável</b>
-                            Você recebe +1 PV por nível e Resistência a Fogo 10.
+                            Recebe +2 PV por nível e Resistência a Fogo 10.
                         </div>
                         <div class="p-3 bg-gray-800/10 rounded-lg border border-gray-700/20">
                             <b class="text-gray-300 block mb-1">Guerreiro Rúnico</b>
-                            Você não pode lançar magias por esta raça, mas recebe um <b>Poder de Combate</b> extra no nível 1.
+                            Recebe um Poder de Combate extra no nível 1. Pode gastar 2 PM para ignorar uma condição de movimento por 1 rodada.
                         </div>
                     </div>
                 </div>
